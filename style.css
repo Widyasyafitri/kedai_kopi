@@ -197,11 +197,11 @@ body {
 
 .hero .content {
   padding: 1.4rem 7%;
-  /* max-width: 60rem; */
+  /* max-width: 80rem; */
   width: 100%;
   text-align: center;
   position: fixed;
-  top: 130px;
+  top: 150px;
 }
 
 .hero .content h1 {
@@ -271,7 +271,13 @@ body {
 
 .about .row .about-img img {
   width: 100%;
+  -webkit-mask-image: url("img/menu/im.svg");
+  -webkit-mask-size: 80%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
 }
+
+
 
 .about .row .content {
   flex: 1 1 35rem;
