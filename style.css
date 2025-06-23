@@ -786,6 +786,43 @@ footer .credit a {
   padding-top: 0;
 }
 
+/* Media Queries untuk Tablet dan Mobile */
+@media (max-width: 758px) {
+    .modal-content {
+        display: flex;
+        flex-direction: column; /* Susun elemen secara vertikal */
+        align-items: flex-start; /* Rata kiri semua konten */
+        text-align: left; /* Rata kiri untuk teks */
+        padding: 1rem; /* Tambahkan padding */
+    }
+
+    .modal-content img {
+        width: 70%; /* Atur lebar gambar */
+        height: auto; /* Jaga proporsi gambar */
+        margin-bottom: 0.5rem; /* Jarak di bawah gambar */
+    }
+
+    .product-content {
+        width: 100%; /* Pastikan konten produk memenuhi lebar modal */
+    }
+
+    .product-price {
+        font-size: 1.2rem; /* Ukuran font untuk harga */
+        margin: 0.5rem 0; /* Rapatkan jarak vertikal */
+    }
+
+
+    .button {
+        width: 40%; /* Tombol memenuhi lebar modal */
+        padding: 10px; /* Padding untuk tombol */
+        font-size: 1.2rem; /* Ukuran font tombol */
+        margin-top: 0.5rem; /* Rapatkan jarak atas untuk spasi */
+        text-align: left; /* Rata kiri untuk teks tombol */
+    }
+}
+
+
+
 /* Mobile phone */
 @media (max-width: 450px) {
   html {
