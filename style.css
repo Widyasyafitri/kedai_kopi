@@ -121,6 +121,21 @@ body {
 }
 
 /* Shopping Cart */
+#shopping-cart-button {
+  position: relative;
+}
+
+#shopping-cart-button .quantity-badge {
+  display: inline-block;
+  padding: 1px 5px;
+  background-color: red;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+
 .shopping-cart {
   position: fixed; /* Mengubah menjadi fixed */
   top: 60px; /* Sesuaikan dengan tinggi navbar */
@@ -149,8 +164,8 @@ body {
 }
 
 .cart-item img {
-  height: 6rem; /* Tinggi gambar */
-  width: 6rem; /* Lebar gambar diubah agar bulat */
+  height: 4rem; /* Tinggi gambar */
+  width: 4rem; /* Lebar gambar diubah agar bulat */
   border-radius: 50%; /* Membuat gambar menjadi bulat */
   object-fit: cover; /* Memastikan gambar tetap proporsional */
 }
@@ -178,6 +193,20 @@ body {
 .remove-item:hover {
   color: red; /* Warna saat hover */
 }
+
+.shopping-cart .cart-item #add,
+.shopping-cart .cart-item #remove {
+  display: inline-block;
+  padding: 2px 5px;
+  cursor: pointer;
+  margin: 0 8px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+
 
 /* Hero  Section */
 .hero {

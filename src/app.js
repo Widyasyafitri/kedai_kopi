@@ -12,7 +12,7 @@ document.addEventListener("alpine:init", () => {
   Alpine.store("cart", {
     items: [],
     total: 0,
-    quamtity: 0,
+    quantity: 0,
     add(newItem) {
       this.items.push(newItem);
       this.quantity++;
