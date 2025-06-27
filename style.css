@@ -206,6 +206,13 @@ body {
   font-size: 1.1rem;
 }
 
+.shopping-cart h4 {
+  font-size: 1.6rem;
+  margin-top: -1rem;
+  text-align: center;
+  min-height: 100vh; /* Biar memanjang ke bawah penuh */
+}
+
 
 
 /* Hero  Section */
